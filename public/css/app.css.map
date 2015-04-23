@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAEA;EAFM,gBAGJ,EAAA;;AAGF;EACI,2BAAQ,EAAA","file":"app.css","sourcesContent":["$red: #ff1122;\n\n.notes {\n  color: $red;\n}\n#main {\n  .notesArea {\n    border: 1px solid $red;\n  }\n}"],"sourceRoot":"/source/"}
