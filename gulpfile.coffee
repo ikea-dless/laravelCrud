@@ -10,8 +10,8 @@ elixir = require 'laravel-elixir'
 # |
 # */
 
-elixir (mix) ->
-  mix.less 'app.less'
+#elixir (mix) ->
+#  mix.less 'app.less'
 
 elixir (mix) ->
-  mix.sass 'app.scss'
+  mix.sass '*.scss'

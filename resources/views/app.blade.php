@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>laravel</title>
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/primer.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">

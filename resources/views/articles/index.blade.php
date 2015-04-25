@@ -1,7 +1,6 @@
 {{--@extends('app')--}}
 
 @section('content')
-    <h2 class="page-header">記事一覧</h2>
     <table class="table table-striped table-hover">
         <thead>
             <tr>
@@ -18,6 +17,7 @@
                 <td>{{ $article->body }}</td>
                 <td>{{ $article->created_at }}</td>
                 <td>{{ $article->updated_at }}</td>
+                <td><a href="/articles/show/{{{ $article->id }}}">詳細</a></td>
             </tr>
         @endforeach
         </tbody>
